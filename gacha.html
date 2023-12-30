@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gacha.css">
+</head>
+<body>
+    <div class="ask disabled">
+        <form class="window">
+            <label class="label-text">Введите промокод</label>
+            <input type="password" class="promo">
+            <button class="submit" type="submit">Ок</button>
+            <button class="reset" type="reset">Закрыть</button>
+        </form>
+    </div>
+
+    <div class="history-list disabled">
+        <div class="window">
+            <p class="label-text">История</p>
+            <div class="pull-history">
+
+            </div>
+            <button class="close-history reset" type="button">Закрыть</button>
+        </div>
+    </div>
+
+    <div class="pulling disabled">
+        <div class="inner-space">
+            <div class="pull-res"></div>
+        </div>
+    </div>
+
+
+    <div class="after-pulling disabled">
+        <div class="inner-space">
+            <div class="valueable">
+                <p class="valueable-name">С Новым Годом!</p>
+                <div class="stars">
+                </div>
+            </div>
+            <button type="button" class="close disabled">x</button>
+            <button type="button" class="next disabled">></button>
+            <div class="get-gift"></div>
+        </div>
+    </div>
+
+    <main>
+        <header>
+            <div class="left-head">
+                <p class="curr">Игрок:</p>
+                <p class="curr plr"></p>
+            </div>
+
+            <div class="right-head">
+                <div class="blesk-holder">
+                    <img class="value-img" src="img/blesk.webp" alt="">
+                    <p class="value-number"></p>
+                    <button class="value-add">+</button>
+                </div>
+                <div class="pull-holder">
+                    <img class="value-img" src="img/pull.webp" alt="">
+                    <p class="value-number"></p>
+                    <button class="value-add">+</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="banner">
+            <div class="right-part"></div>
+            <img src="img/q.png" class="gift">
+            <div class="left-part">
+                <div class="banner-title">
+                    <p class="banner-text"></p>
+                </div>
+                <div class="banner-bound">
+                    <p class="banner-text">Каждые 10 круток гарантирован 4* подарок</p>
+                    <p class="banner-text">Каждые 90 круток гарантирован 5* подарок</p>
+                </div>
+                <div class="banner-data">
+                    <p class="banner-text">C Новым годом!</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="history">
+                <div class="history-holder">
+                    <img class="value-img" src="img/pull.webp" alt="">
+                    <p class="history-text">История</p>
+                </div>
+            </div>
+
+            <div class="right-head">
+                <div class="blesk-holder pull-10">
+                    <img class="value-img" src="img/pull.webp" alt="">
+                    <p class="value-number">Крутить x10</p>
+                </div>
+                <div class="pull-holder pull-1">
+                    <img class="value-img" src="img/pull.webp" alt="">
+                    <p class="value-number">Крутить x1</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+    <script src="data.js"></script>
+    <script src="gacha.js"></script>
+</body>
+</html>
